@@ -9,7 +9,7 @@ interface ProjectCardProps {
 
 export function ProjectCard({ project }: ProjectCardProps) {
   return (
-    <Link href={project.link} className="block group border-b border-foreground/10 last:border-b-0 py-16 px-8 -mx-8 transition-colors duration-500 hover:bg-foreground/[0.02]">
+    <Link href={`/${project.id}`} className="block group border-b border-foreground/10 last:border-b-0 py-16 px-8 -mx-8 transition-colors duration-500 hover:bg-foreground/[0.02]">
       <article className="grid grid-cols-1 md:grid-cols-12 gap-8 items-center cursor-pointer">
         <div className="col-span-1 md:col-span-7 order-2 md:order-1 space-y-6">
           <div>
