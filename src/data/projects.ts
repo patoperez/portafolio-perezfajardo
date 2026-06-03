@@ -30,6 +30,6 @@ export const PROJECTS: Project[] = [
     tags: ["Supply Chain", "Power BI", "Excel", "Operations", "Business Intelligence"],
     image: "/projects/supply-chain-control-tower.png", // real screenshot of the live Control Tower dashboard
     link: "/projects/supply-chain-control-tower",
-    externalLink: "https://github.com"
+    externalLink: "https://github.com/patoperez/supply-chain-analysis"
   }
 ];
