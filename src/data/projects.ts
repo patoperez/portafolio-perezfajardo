@@ -28,7 +28,7 @@ export const PROJECTS: Project[] = [
     title: "Supply Chain Control Tower",
     description: "End-to-end visibility dashboard mapping inventory flow and operational bottlenecks to streamline decision-making.",
     tags: ["Supply Chain", "Power BI", "Excel", "Operations", "Business Intelligence"],
-    image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=2670&auto=format&fit=crop", // abstract data visualization placeholder
+    image: "/projects/supply-chain-control-tower.png", // real screenshot of the live Control Tower dashboard
     link: "/projects/supply-chain-control-tower",
     externalLink: "https://github.com"
   }
