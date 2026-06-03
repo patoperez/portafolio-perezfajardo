@@ -34,10 +34,10 @@ export function LeftSidebar({ activeTags, onToggleTag }: LeftSidebarProps) {
           patricio@perezfajardo.com
         </a>
         <div className="flex gap-6 text-sm font-medium">
-          <a href="#" className="text-foreground/50 hover:text-accent transition-colors tracking-wide" aria-label="LinkedIn">
+          <a href="https://www.linkedin.com/in/patriciojperez/" className="text-foreground/50 hover:text-accent transition-colors tracking-wide" aria-label="LinkedIn">
             LinkedIn
           </a>
-          <a href="#" className="text-foreground/50 hover:text-accent transition-colors tracking-wide" aria-label="GitHub">
+          <a href="https://github.com/patoperez" className="text-foreground/50 hover:text-accent transition-colors tracking-wide" aria-label="GitHub">
             GitHub
           </a>
         </div>
