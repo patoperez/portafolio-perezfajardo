@@ -14,6 +14,7 @@ export const AVAILABLE_TAGS = [
   "Operations",
   "Data Analysis",
   "Power BI",
+  "Power Query",
   "Excel",
   "SQL",
   "Python",
@@ -24,12 +25,21 @@ export const AVAILABLE_TAGS = [
 
 export const PROJECTS: Project[] = [
   {
+    id: "signal-in-the-noise",
+    title: "Signal in the Noise",
+    description: "Turning messy, SAP-simulated distribution data into decisions you can defend — data cleaning, exception detection, and fair-share allocation across a 15-DC network.",
+    tags: ["Supply Chain", "Business Intelligence", "Power Query", "Excel", "Data Analysis"],
+    image: "/projects/apex-screenshot.png",
+    link: "/signal-in-the-noise/",
+    externalLink: "https://github.com/patoperez/apex-drp-control-tower"
+  },
+  {
     id: "supply-chain-control-tower",
     title: "Supply Chain Control Tower",
     description: "End-to-end visibility dashboard mapping inventory flow and operational bottlenecks to streamline decision-making.",
-    tags: ["Supply Chain", "Power BI", "Excel", "Operations", "Business Intelligence"],
+    tags: ["Supply Chain", "Power BI", "Python", "Operations", "Business Intelligence"],
     image: "/projects/supply-chain-control-tower.png", // real screenshot of the live Control Tower dashboard
-    link: "/projects/supply-chain-control-tower",
+    link: "/supply-chain-control-tower",
     externalLink: "https://github.com/patoperez/supply-chain-analysis"
   }
 ];
