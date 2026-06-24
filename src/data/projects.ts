@@ -25,6 +25,15 @@ export const AVAILABLE_TAGS = [
 
 export const PROJECTS: Project[] = [
   {
+    id: "medflow-pharma",
+    title: "MedFlow Pharma",
+    description: "Diagnosing a quarter-billion-peso blind spot in a pharma distribution network — end-to-end demand forecasting, segmented service levels, and a quantified business case.",
+    tags: ["Supply Chain", "Business Intelligence", "Operations", "Data Analysis", "Python", "SQL"],
+    image: "/projects/medflow screenshot.png",
+    link: "/MedFlowPharmaSC",
+    externalLink: "https://github.com/patoperez/medflow-pharma-supply-chain"
+  },
+  {
     id: "signal-in-the-noise",
     title: "Signal in the Noise",
     description: "Turning messy, SAP-simulated distribution data into decisions you can defend — data cleaning, exception detection, and fair-share allocation across a 15-DC network.",
